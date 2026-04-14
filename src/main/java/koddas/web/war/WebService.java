@@ -17,11 +17,11 @@ import javax.ws.rs.core.Response;
 
 import com.google.gson.Gson;
 
-/**
+/****
  * A very simple web service.
  * 
  * @author Johan Holmberg
- */
+ ****/
 @Path("service")  // By altering the argument, you'll change the service's URL
 public class WebService {
 	
